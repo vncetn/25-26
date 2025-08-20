@@ -115,9 +115,9 @@ activation_3_2 = perception_3_2.activate(weighted_sum_3_2)
 activation_3_3 = perception_3_3.activate(weighted_sum_3_3)
 
 print("--== PROBLEM 3 ==--")
-print("Output for Perceptron A:", activation_3_1)
-print("Output for Perceptron B:", activation_3_2)
-print("Output for Perceptron C:", activation_3_3)
+print(f"Output for Perceptron A: {activation_3_1} with weighted sum {weighted_sum_3_1}")
+print(f"Output for Perceptron B: {activation_3_2} with weighted sum {weighted_sum_3_2}")
+print(f"Output for Perceptron C: {activation_3_3} with weighted sum {weighted_sum_3_3}")
 
 # Determine the winner
 activations = [activation_3_1, activation_3_2, activation_3_3]
